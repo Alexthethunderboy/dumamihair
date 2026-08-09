@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title desc">
+  <title id="title">Dumami flowing-hair D mark</title>
+  <desc id="desc">A custom capital D with a subtle feminine silhouette as its stem and three flowing hair strands originating only from her head.</desc>
+  <style>
+    .silhouette { fill: currentColor; }
+    .hair { fill: none; stroke: currentColor; }
+    svg { color: #4a1721; }
+  </style>
+  <path class="silhouette" d="M53 18c-8 0-14 6-14 14 0 5 3 9 7 12-6 8-10 21-9 37 1 20 8 33 6 51-2 26-10 52-14 88h50c-4-33-12-62-14-88-2-22 4-35 4-54 0-16-4-28-10-34 5-3 8-8 8-14 0-7-6-12-14-12Z"/>
+  <g class="hair" stroke-linecap="round">
+    <path d="M59 25c94-5 154 31 157 86 3 56-44 96-138 107" stroke-width="12"/>
+    <path d="M62 31c81-1 130 31 133 82 3 45-35 77-117 86" stroke-width="8"/>
+    <path d="M64 37c64 4 103 30 106 77 2 35-25 63-90 69" stroke-width="5.5"/>
+  </g>
+</svg>

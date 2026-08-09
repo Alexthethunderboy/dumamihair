@@ -1,0 +1,30 @@
+.DS_Store
+
+# Dependencies and build output
+node_modules/
+dist/
+build/
+coverage/
+
+# Local configuration and logs
+.env
+.env.*
+!.env.example
+*.log
+
+# Generated project artifacts and QA files
+tmp/
+output/
+exports/
+tmp-*.png
+
+# Local client-document build helper
+tools/build_client_pack.py
+
+# Keep only the attributed portfolio images used by the website
+assets/portfolio/*
+!assets/portfolio/SOURCES.md
+!assets/portfolio/tiktok-01.avif
+!assets/portfolio/tiktok-03.jpg
+!assets/portfolio/tiktok-04.avif
+!assets/portfolio/tiktok-07.jpg

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 430" role="img" aria-labelledby="title desc">
+  <title id="title">Dumami stacked flowing-hair logo</title>
+  <desc id="desc">The feminine silhouette and flowing-hair D mark above the custom Dumami wordmark and Hair Lifestyle descriptor.</desc>
+  <style>
+    .logo-fill, .word { fill: currentColor; }
+    .logo-line { fill: none; stroke: currentColor; }
+    .descriptor { fill: currentColor; font: 700 16px Arial, Helvetica, sans-serif; letter-spacing: 7px; }
+    svg { color: #4a1721; }
+  </style>
+  <g transform="translate(292 8) scale(.7)">
+    <path class="logo-fill" d="M53 18c-8 0-14 6-14 14 0 5 3 9 7 12-6 8-10 21-9 37 1 20 8 33 6 51-2 26-10 52-14 88h50c-4-33-12-62-14-88-2-22 4-35 4-54 0-16-4-28-10-34 5-3 8-8 8-14 0-7-6-12-14-12Z"/>
+    <g class="logo-line" stroke-linecap="round">
+      <path d="M58 28c96-6 156 33 158 88 2 55-46 92-139 102" stroke-width="12"/>
+      <path d="M61 44c81-4 130 28 132 74 2 41-36 72-119 81" stroke-width="8"/>
+      <path d="M63 60c62-1 103 22 105 60 2 31-25 57-87 63" stroke-width="5.5"/>
+    </g>
+  </g>
+  <g class="word" transform="translate(22 218)" fill-rule="evenodd">
+    <path d="M0 14h44c38 0 60 21 60 58s-22 58-60 58H0v-8h12V22H0v-8Zm31 8v100h11c28 0 41-16 41-50S70 22 42 22H31Z"/>
+    <path d="M122 14h38v8h-11v70c0 22 9 32 28 32s29-11 29-32V22h-11v-8h36v8h-11v70c0 28-16 42-44 42s-43-13-43-42V22h-11v-8Z"/>
+    <path d="M252 14h31l31 82 32-82h31v8h-11v100h11v8h-40v-8h12V34l-33 88h-8l-33-88v88h12v8h-35v-8h11V22h-11v-8Z"/>
+    <path d="M394 122h9l44-108h11l44 108h10v8h-40v-8h12l-11-28h-45l-11 28h13v8h-36v-8Zm38-38h37l-19-47-18 47Z"/>
+    <path d="M529 14h31l31 82 32-82h31v8h-11v100h11v8h-40v-8h12V34l-33 88h-8l-33-88v88h12v8h-35v-8h11V22h-11v-8Z"/>
+    <path d="M672 14h44v8h-13v100h13v8h-44v-8h13V22h-13v-8Z"/>
+  </g>
+  <text class="descriptor" x="380" y="405" text-anchor="middle">HAIR · LIFESTYLE</text>
+</svg>

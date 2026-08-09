@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 180" role="img" aria-labelledby="title desc">
+  <title id="title">Dumami head-flow wordmark</title>
+  <desc id="desc">The head-flow icon serves as the optically aligned D in the custom Dumami wordmark.</desc>
+  <style>
+    .logo-fill, .word { fill: currentColor; }
+    .logo-line { fill: none; stroke: currentColor; }
+    svg { color: #4a1721; }
+  </style>
+  <g transform="translate(0 26) scale(.59)">
+    <path class="logo-fill" d="M53 18c-8 0-14 6-14 14 0 5 3 9 7 12-6 8-10 21-9 37 1 20 8 33 6 51-2 26-10 52-14 88h50c-4-33-12-62-14-88-2-22 4-35 4-54 0-16-4-28-10-34 5-3 8-8 8-14 0-7-6-12-14-12Z"/>
+    <g class="logo-line" stroke-linecap="round">
+      <path d="M59 25c94-5 154 31 157 86 3 56-44 96-138 107" stroke-width="12"/>
+      <path d="M62 31c81-1 130 31 133 82 3 45-35 77-117 86" stroke-width="8"/>
+      <path d="M64 37c64 4 103 30 106 77 2 35-25 63-90 69" stroke-width="5.5"/>
+    </g>
+  </g>
+  <g class="word" transform="translate(32 23) scale(1.02)" fill-rule="evenodd">
+    <path d="M122 14h38v8h-11v70c0 22 9 32 28 32s29-11 29-32V22h-11v-8h36v8h-11v70c0 28-16 42-44 42s-43-13-43-42V22h-11v-8Z"/>
+    <path d="M252 14h31l31 82 32-82h31v8h-11v100h11v8h-40v-8h12V34l-33 88h-8l-33-88v88h12v8h-35v-8h11V22h-11v-8Z"/>
+    <path d="M394 122h9l44-108h11l44 108h10v8h-40v-8h12l-11-28h-45l-11 28h13v8h-36v-8Zm38-38h37l-19-47-18 47Z"/>
+    <path d="M529 14h31l31 82 32-82h31v8h-11v100h11v8h-40v-8h12V34l-33 88h-8l-33-88v88h12v8h-35v-8h11V22h-11v-8Z"/>
+    <path d="M672 14h44v8h-13v100h13v8h-44v-8h13V22h-13v-8Z"/>
+  </g>
+</svg>

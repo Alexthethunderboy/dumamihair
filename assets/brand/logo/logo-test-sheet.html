@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dumami Hair logo test sheet</title>
+    <style>
+      :root { --wine:#4a1721; --deep:#2a0d13; --ivory:#f6efe6; --paper:#fffdf9; --ink:#1b1415; }
+      * { box-sizing: border-box; }
+      body { margin:0; background:var(--paper); color:var(--ink); font:15px/1.5 Arial, Helvetica, sans-serif; }
+      main { width:min(1180px,calc(100% - 40px)); margin:auto; padding:56px 0 80px; }
+      h1 { margin:0 0 12px; font:400 clamp(42px,7vw,82px)/.95 Georgia,serif; letter-spacing:-.05em; }
+      h2 { margin:0 0 20px; font:400 28px/1 Georgia,serif; }
+      p { margin:0; color:#65575a; }
+      .intro { display:grid; grid-template-columns:1.3fr .7fr; gap:40px; align-items:end; margin-bottom:48px; }
+      .label { color:var(--wine); font-size:11px; font-weight:800; letter-spacing:.18em; text-transform:uppercase; }
+      .grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); border-top:1px solid #d9d0c8; border-left:1px solid #d9d0c8; }
+      .panel { min-height:340px; padding:36px; border-right:1px solid #d9d0c8; border-bottom:1px solid #d9d0c8; display:flex; flex-direction:column; justify-content:space-between; gap:30px; }
+      .panel img { width:100%; height:auto; }
+      .panel--wine { background:var(--wine); color:#fffaf4; }
+      .panel--wine p,.panel--wine .label { color:#e8cfc5; }
+      .panel--wine img { filter:brightness(0) invert(1); }
+      .panel--mono img { filter:grayscale(1) brightness(.28); }
+      .symbol { max-width:180px; align-self:center; }
+      .sizes { display:flex; align-items:flex-end; gap:24px; min-height:120px; }
+      .sizes figure { margin:0; display:grid; gap:8px; justify-items:center; }
+      .sizes img { width:var(--size); height:var(--size); }
+      .sizes figcaption { color:#6c5f61; font-size:11px; }
+      .photo { background:linear-gradient(90deg,rgba(32,9,14,.84),rgba(32,9,14,.3)),url('../../portfolio/tiktok-03.jpg') center 35%/cover; }
+      .photo img { filter:brightness(0) invert(1); }
+      @media (max-width:700px) { .intro,.grid { grid-template-columns:1fr; } main{width:min(100% - 24px,1180px);padding-top:32px}.panel{min-height:280px;padding:24px}.sizes{gap:14px;overflow:hidden} }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header class="intro">
+        <div><p class="label">Logo system · v1.0</p><h1>Dumami Hair</h1></div>
+        <p>Production test sheet for positive, reversed, monochrome, photographic and small-size conditions.</p>
+      </header>
+      <section class="grid" aria-label="Logo tests">
+        <article class="panel">
+          <p class="label">Primary · soft ivory</p>
+          <img src="dumami-wordmark.svg" alt="Dumami wordmark in wine" />
+          <p>Preferred everyday signature.</p>
+        </article>
+        <article class="panel panel--wine">
+          <p class="label">Reversed · Dumami Wine</p>
+          <img src="dumami-wordmark.svg" alt="Dumami wordmark reversed in warm white" />
+          <p>Use warm white on the signature dark field.</p>
+        </article>
+        <article class="panel panel--mono">
+          <p class="label">One colour · office print</p>
+          <img src="dumami-primary.svg" alt="Dumami horizontal lockup in one colour" />
+          <p>No gradients, effects or colour-dependent details.</p>
+        </article>
+        <article class="panel photo">
+          <p class="label">Reversed · photography</p>
+          <img src="dumami-wordmark.svg" alt="Dumami wordmark reversed over portfolio photography" />
+          <p>Only use over a calm, consistently dark crop.</p>
+        </article>
+        <article class="panel">
+          <p class="label">Standalone symbol</p>
+          <img class="symbol" src="dumami-symbol.svg" alt="Detailed Dumami flowing-hair D symbol with a subtle feminine silhouette" />
+          <p>Use the detailed symbol from 40 px upward.</p>
+        </article>
+        <article class="panel">
+          <p class="label">Small-size ladder</p>
+          <div class="sizes">
+            <figure style="--size:16px"><img src="dumami-symbol-small.svg" alt="" /><figcaption>16</figcaption></figure>
+            <figure style="--size:24px"><img src="dumami-symbol-small.svg" alt="" /><figcaption>24</figcaption></figure>
+            <figure style="--size:32px"><img src="dumami-symbol-small.svg" alt="" /><figcaption>32</figcaption></figure>
+            <figure style="--size:40px"><img src="dumami-symbol-small.svg" alt="" /><figcaption>40</figcaption></figure>
+            <figure style="--size:64px"><img src="dumami-symbol.svg" alt="" /><figcaption>64</figcaption></figure>
+          </div>
+          <p>Simplified mark below 40 px; detailed symbol from 40 px.</p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
