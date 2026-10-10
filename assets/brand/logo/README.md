@@ -28,11 +28,11 @@ Design principles:
 - `dumami-stacked.svg` — centred alternate with the Hair · Lifestyle descriptor.
 - `dumami-symbol.svg` — detailed standalone mark for social avatars, signage and high-attention applications.
 - `dumami-symbol-small.svg` — simplified icon for favicons and sizes below 40 px.
-- `../../../favicon.svg` — installed website favicon using the simplified mark.
+- `../../favicon.svg` — installed website favicon using the simplified mark.
 
 All core letterforms are outlined vector paths. The descriptor in the stacked lockup remains editable live text so its final wording can change after client approval; it uses Arial/Helvetica as a neutral licensed system fallback.
 
-Transparent PNG exports are supplied in `../../../exports/logo/` at 64, 128, 256, 512, 1024, 1432 and 1700 px as appropriate. Wine, white-reversed and near-black wordmark variants are included. Rebuild them with `../../../tools/export_logo_pngs.cjs` whenever an SVG master changes.
+Transparent PNG exports are generated outputs and are not tracked in `../../../exports/logo/` at 64, 128, 256, 512, 1024, 1432 and 1700 px as appropriate. Wine, white-reversed and near-black wordmark variants are included. The existing `../../../tools/export_logo_pngs.cjs` imports Sharp from an author-machine absolute path. It is not a portable build command, and no package manifest is tracked. SVG masters can be used directly; a separately reviewed local Sharp dependency/setup is needed before advertising reproducible PNG exports. The static preview does not require this tool.
 
 ## Colour
 
